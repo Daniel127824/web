@@ -11,15 +11,36 @@ h1{
     color: var(--fialova);
 }
     
-### Primary
 
-Moderate violet: hsl(263, 55%, 52%)
-Very dark grayish blue: hsl(217, 19%, 35%)
-Very dark blackish blue: hsl(219, 29%, 14%)
-White: hsl(0, 0%, 100%)
+article {
+    padding: 15px;
+    color: brown;
+}
 
-### Neutral
+body {
+    color: var(--light-grey);
+}  
 
-Light gray: hsl(0, 0%, 81%)
-Light grayish blue: hsl(210, 46%, 95%)
+.box1 {
+    padding: 20px;
+    display: grid;
+    text-align: center;
+    background-color: var(--fialova);
+}
+
+.box2 {
+    background-color:var(--light-grey) ;
+}
+
+.box3 {
+    background-color: var(--white);
+}
+
+.box4 {
+    background-color: var(--modra);
+}
+
+.box5 {
+    background-color: var(--light-grayish-blue);
+}
     
